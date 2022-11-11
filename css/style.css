@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Courgette&family=Cousine&family=Josefin+Slab:ital,wght@1,300&family=Outfit:wght@500;600&family=Poppins:wght@400;800&family=Share+Tech&family=VT323&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    padding: 1.25rem 6.25rem;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-text {
+    width: 35rem;
+}
+
+.container-img {
+    width: 35rem;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15rem;
+}
+
+.container-drinks {
+    border-radius: 4rem;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    transition: 0.7s;
+}
+
+h2 {
+    color: #333;
+    font-size: 3.75rem;
+    font-weight: 500;
+}
+
+span {
+    color: #017143;
+    font-size: 4.3rem;
+    font-weight: 800;
+    transition: 0.7s;
+}
+
+p {
+    font-size: 1rem;
+}
+
+button {
+    transition: 0.7s;
+    background: #017143;
+    color: #FFF;
+    border-radius: 3rem;
+    border: none;
+    cursor: pointer;
+    padding: 0.7rem 1.2rem;
+    margin-top: 1.25rem; 
+}
+
+button:hover {
+    transform: translateY(-8px);
+}
+
+.logo {
+    width: 3.75rem;
+}
+
+.drink {
+    width: 20rem;
+}
+
+.btn-mudar-drink {
+    width: 4.5rem;
+    transition: 0.7s;
+}
+
+.btn-mudar-drink:hover {
+    cursor: pointer;
+    transform: translateY(-16px);
+}
+
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #017143;
+    top: 0;
+    left: 0;
+    clip-path: circle(40% at right 40rem);
+    z-index: -1;
+    transition: 0.7s;
+}
